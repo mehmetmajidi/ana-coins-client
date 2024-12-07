@@ -1,0 +1,19 @@
+{
+     "text": {
+          "title": "AnaCoins Uygulaması",
+          "site-name": "AnaCoins",
+          "welcome": "AnaCoins Uygulamasına Hoş Geldiniz",
+          "prediction": {
+               "profit_prediction": "Kar Tahmini",
+               
+                 "select_coin": "Coin Seçin:",
+               "prediction_for": "Tahmin edilen için",
+               "current_price": "Mevcut Fiyat:",
+               "investment_amount": "Yatırım Tutarı:",
+               "predicted_price": "Tahmini Fiyat:",
+               "predicted_percentage": "Tahmini Yüzde:",
+               "profit": "Karınız:",
+               "latest_RSI": "Son RSI:"
+          }
+     }
+}

@@ -1,42 +1,59 @@
+@import "colors.css";
+@import "material-icons/iconfont/material-icons.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap");
+html {
+     font-family: Inter, sans-serif; /* Default font */
+}
+html[lang="fa"],
+html[lang="ar"] {
+     font-family: Vazirmatn, sans-serif; /* Apply Vazirmatn for RTL languages */
+}
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+     --font-family: "Vazirmatn", sans-serif;
+     html,
+     body,
+     h1,
+     h2,
+     h3,
+     h4,
+     h5 {
+          padding: 0;
+          margin: 0;
+     }
+     body {
+          width: 100%;
+          margin: 0;
+          padding: 0;
+          /*    font-family: var(--font-family); */
+          background-color: var(--background-color);
+          transition: all 0.4s ease-in;
+     }
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+p {
+     margin: 0;
+     padding: 0;
+}
+.material-icons {
+     width: 24px;
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+button {
+     cursor: pointer;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+.header {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     background-color: var(--light_bg-color);
+     padding: 8px 24px;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
+.header-right {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
 }

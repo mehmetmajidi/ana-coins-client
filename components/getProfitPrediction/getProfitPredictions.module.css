@@ -1,0 +1,32 @@
+.pageContainer {
+     display: flex;
+}
+.formContainer {
+     display: flex;
+     flex-direction: column;
+     width: 25%;
+}
+.resultContainer {
+     display: flex;
+     flex-direction: column;
+     width: 75%;
+     padding: 16px;
+}
+.cardContainer {
+     display: flex;
+     justify-content: space-between;
+     width: 95%;
+     list-style: none;
+     background-color: var(--light_bg-color);
+     padding: 16px;
+}
+
+.cardContainer li {
+     display: flex;
+     flex-direction: column;
+}
+
+.itemTitle {
+     font-size: 12px;
+     color: var(--light-secondary-color);
+}

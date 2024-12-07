@@ -1,0 +1,18 @@
+{
+     "text": {
+          "title": "AnaCoins App",
+          "site-name": "AnaCoins",
+          "welcome": "Welcome To AnaCoins App",
+          "prediction": {
+               "profit_prediction": "Profit Prediction",
+               "select_coin": "Select Coin:",
+               "prediction_for": "Prediction for",
+               "current_price": "Current Price:",
+               "investment_amount": "Investment Amount:",
+               "predicted_price": "Predicted Price:",
+               "predicted_percentage": "Predicted Percentage:",
+               "profit": "Your Profit:",
+               "latest_RSI": "Latest RSI:"
+          }
+     }
+}

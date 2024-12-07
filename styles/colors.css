@@ -1,0 +1,60 @@
+/* styles/globals.css */
+:root {
+     --background-color: white;
+     --text-color: #050a10;
+     --light_bg-color: #e5e9f2;
+     --light_bg-color-50: #e5e9f280;
+     --light_bg-color-hover: #dbe2f1;
+     --light_gray_bg_color: #f5f5f5;
+     --icon-color: #031020;
+     --menu-item-color: #d7dded;
+     --primary-color: #0770fe;
+
+     --primary-color-hover: #046aee;
+     --light-secondary-color: #6e82a5;
+     --light-secondary-color-hover: #5d7193;
+     --success-color: #10cb8a;
+     --warning-color: #e62864;
+     --warning-color-hover: #d41955;
+     --white: white;
+     --graph-bacground: #dce3f3;
+     --border-light: #051b3630;
+     --primary_light_bg_color: #0770fe20;
+     --table_bg_color: #11073b10;
+     --table_bg_color_hover: #11073b20;
+
+     --bg-blue-gradient: radial-gradient(circle at 20%, #7b9df1, #2246a1 100%);
+     --bg-gry-gradient: radial-gradient(circle at 20%, #5f6e94, #2d2f35 100%);
+     --bg-gradient: linear-gradient(145deg, #221d5d 13.65%, #0770fe 66.7%, #0770fe 136.1%);
+}
+
+[data-theme="dark"] {
+     --icon-color: #e5e9f2;
+     --menu-item-color: #06172d;
+     --primary-color: #0770fe;
+     --primary-color-hover: #046aee;
+     --light-secondary-color: #6e82a5;
+     --light-secondary-color-hover: #5d7193;
+     --white: white;
+     --success-color: #10cb8a;
+     --warning-color: #e62864;
+
+     /* Border Colors */
+     --border-light: #ffffff60;
+
+     /* Background Colors */
+     --background-color: #010a14;
+     --light_gray_bg_color: #072344;
+     --graph-bacground: #051d3a;
+     --light_bg-color: #051b36;
+     --light_bg-color-hover: #02172f;
+     --table_bg_color: #ffffff10;
+     --table_bg_color_hover: #ffffff15;
+     /* Text Colors */
+     --text-color: white;
+}
+
+body {
+     background-color: var(--background-color);
+     color: var(--text-color);
+}

@@ -1,0 +1,18 @@
+{
+     "text": {
+          "title": "اپلیکیشن آناکویـنـز",
+          "site-name": "آناکویـنـز",
+          "welcome": "به اپلیکیشن آناکویـنـز خوش آمدید",
+          "prediction": {
+               "profit_prediction": "پیش‌بینی سود",
+               "select_coin": "انتخاب سکه:",
+               "prediction_for": "پیش‌بینی برای",
+               "current_price": "قیمت فعلی:",
+               "investment_amount": "مقدار سرمایه‌گذاری:",
+               "predicted_price": "قیمت پیش‌بینی شده:",
+               "predicted_percentage": "درصد پیش‌بینی شده:",
+               "profit": "سود شما:",
+               "latest_RSI": "آخرین آر اس آی:"
+          }
+     }
+}
