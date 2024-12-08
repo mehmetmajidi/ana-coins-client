@@ -1,0 +1,90 @@
+.paginationContainer {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     width: 100%;
+     justify-content: space-between;
+}
+.paginationWrapper {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+}
+.pageNumberActive {
+     background-color: var(--primary-color);
+     color: var(--white);
+     width: 32px;
+     height: 32px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 5px;
+     border: none;
+}
+.pageNumberNormal {
+     background-color: var(--primary_light_bg_color);
+     color: var(--primary-color);
+     width: 32px;
+     height: 32px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     border-radius: 5px;
+     border: none;
+}
+
+.paginationButton {
+     display: flex;
+     align-items: center;
+     gap: 0.5rem;
+     background-color: var(--light_bg-color);
+     height: 32px;
+     border: none;
+     border-radius: 5px;
+     color: var(--text-color);
+     cursor: pointer;
+     transition: all 0.3 ease-in;
+}
+.paginationButton:hover {
+     background-color: var(--light_bg-color-hover);
+
+     border: none;
+     border-radius: 5px;
+     color: var(--text-color);
+     cursor: pointer;
+     transition: all 0.3 ease-in;
+}
+
+.pageInfo {
+     font-size: 12px;
+     color: var(--primary-color);
+}
+.itemsPerPageSelector label {
+     font-size: 12px;
+     color: var(--primary-color);
+}
+
+.selectWrapper {
+     position: relative;
+     display: inline-block;
+}
+
+.pageSelector {
+     padding: 8px; /* Space for the icon */
+     appearance: none;
+     background-color: var(--light_bg-color);
+     border-radius: 5px;
+     border: none;
+     height: 32px;
+     width: 70px;
+     outline: none;
+}
+
+.expandMoreIcon {
+     position: absolute;
+     right: 5px; /* Adjust as needed */
+     top: 50%;
+     transform: translateY(-50%);
+     pointer-events: none; /* Allows clicks to pass through to the select */
+     color: var(--primary-color);
+}

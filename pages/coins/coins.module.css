@@ -1,0 +1,16 @@
+.coinItem {
+     width: 100%;
+     display: flex;
+     flex-wrap: wrap;
+     background-color: var(--table_bg_color);
+}
+
+.listItem {
+     display: flex;
+     flex-direction: column;
+     width: 15%;
+}
+.listItemTitle {
+     font-size: 12px;
+     color: var(--light-secondary-color);
+}
